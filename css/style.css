@@ -1,3 +1,31 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #F7F4F4;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+}
+.page-wrapper {
+  max-width: 375px;
+  margin: auto;
+  background: #F6F4F4;
+box-shadow: 0px 0px 30px rgba(109, 109, 109, 0.25);
+border-radius: 20px;
+}
+.header {
+  color: #ffffff;
+  padding: 42px 30px 145px;
+  background: linear-gradient(0deg, rgba(14, 13, 13, 0.2), rgba(14, 13, 13, 0.2)), url('../img/a51d63770254e97f15c4fe052a0ec7a9.png') no-repeat center / cover ;
+border-radius: 0px 0px 90px 90px;
+}
+.hello {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.hello-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
