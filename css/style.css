@@ -10,9 +10,9 @@ body {
   max-width: 375px;
   margin: auto;
   background: #F6F4F4;
-box-shadow: 0px 0px 30px rgba(109, 109, 109, 0.25);
-border-radius: 20px;
-overflow: hidden;
+  box-shadow: 0px 0px 30px rgba(109, 109, 109, 0.25);
+  border-radius: 20px;
+  overflow: hidden;
 }
 .container {
   max-width: 300px;
@@ -22,7 +22,7 @@ overflow: hidden;
   color: #ffffff;
   padding: 42px 30px 145px;
   background: linear-gradient(0deg, rgba(14, 13, 13, 0.2), rgba(14, 13, 13, 0.2)), url('../img/a51d63770254e97f15c4fe052a0ec7a9.png') no-repeat center / cover ;
-border-radius: 0px 0px 90px 90px;
+  border-radius: 0px 0px 90px 90px;
 }
 .hello {
   font-weight: 500;
@@ -38,9 +38,9 @@ border-radius: 0px 0px 90px 90px;
   margin-top: -79px;
   text-align: center;
   background: #FAFAFA;
-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
-border-radius: 10px;
-padding-bottom: 7px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding-bottom: 7px;
 }
 .user-avatar {
   margin-top: -45px;
@@ -49,16 +49,61 @@ padding-bottom: 7px;
   border: 5px solid #FFFCFC;
 }
 .user-name {
+  margin-top: 7px;
+  margin-bottom: 4px;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  margin-top: 7px;
-  margin-bottom: 4px;
+  
 } 
 .user-description {
   font-weight: 500;
-font-size: 11px;
-line-height: 13px;
-color: #707070;
-margin-top: 4px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #707070;
+  margin-top: 4px;
+}
+.card {
+  background: #FAFAFA;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+.buttons {    
+  display: flex ;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 12px;
+  }
+.button {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  color:#ffffff;
+  font-weight: 500px;
+  font-size: 12px;
+  line-height: 15px;
+  gap: 10px;
+  margin-bottom: 10px;
+  }
+.button.vk {
+background: #4c75a3;
+}
+.button.tg {
+  background: #0088CC;
+}
+.button.yt {
+  background: #CC0000;
+}
+.button.hh {
+  background: #d6001c;
 }
